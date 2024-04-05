@@ -111,7 +111,7 @@ section {
 .main-btn:hover {
     background-color: rgb(201, 201, 201);
     color: black;
-    font-size: 0.52em;
+    font-size: 0.7em;
 }
 
 .socials {
@@ -206,4 +206,25 @@ section {
 .card.contact {
     padding: 0.4em;
     text-align: center;
+}
+
+
+@media (max-width:375px) {
+    * {
+        font-size: 20px;
+        max-width: 100vw;
+    }
+    header {
+        padding: 30px;
+        width: 100vw;
+        height: 30px;
+    }
+    header a {
+        font-size: 0.6em;
+        padding: 100px 10px 100px 0;
+    }
+    .card {
+        font-size: 0.5em;
+        max-width: fit-content;
+    }
 }
